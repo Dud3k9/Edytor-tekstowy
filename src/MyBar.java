@@ -81,23 +81,33 @@ public class MyBar extends JMenuBar {
         JMenu option = new JMenu("Option");
 
         ColorMenu foreground=new ColorMenu("Foreground");
-        JMenu Background=new ColorMenu("Background");
-        JMenu fontSize=new JMenu("Font size");
+        ColorMenu background=new ColorMenu("Background");
+        FontMenu fontSize=new FontMenu("Font size");
         option.add(foreground);
-        option.add(Background);
+        option.add(background);
         option.add(fontSize);
+        this.add(option);
 
-
+//Foreground------
         for(int i=0;i<foreground.radioButons.length;i++)
             foreground.radioButons[i].addActionListener((e)->{
-                
-                Edytor.scroll.textArea.setForeground(foreground.colors[]);
+                JRadioButtonMenuItem radiobutton=(JRadioButtonMenuItem)e.getSource();
+                Edytor.scroll.textArea.setForeground(radiobutton.getForeground());
+            });
+//Background------
+        for(int i=0;i<background.radioButons.length;i++)
+            background.radioButons[i].addActionListener((e)->{
+                JRadioButtonMenuItem radiobutton=(JRadioButtonMenuItem)e.getSource();
+                Edytor.scroll.textArea.setBackground(radiobutton.getForeground());
             });
 
+//FontSize-------
+        for(int i=0;i<fontSize.fonts.length;i++)
+            fontSize.radiobutton[i].addActionListener((e)->{
+                JRadioButtonMenuItem radiobutton=(JRadioButtonMenuItem)e.getSource();
+                Edytor.scroll.textArea.setFont(radiobutton.getFont());
+            });
 
-
-
-        this.add(option);
 
     }
 
