@@ -93,12 +93,15 @@ public class MyBar extends JMenuBar {
             foreground.radioButons[i].addActionListener((e)->{
                 JRadioButtonMenuItem radiobutton=(JRadioButtonMenuItem)e.getSource();
                 Edytor.scroll.textArea.setForeground(radiobutton.getForeground());
+                Edytor.fg.setIcon(new MyIcon(0,5,radiobutton.getForeground()));
+
             });
 //Background------
         for(int i=0;i<background.radioButons.length;i++)
             background.radioButons[i].addActionListener((e)->{
                 JRadioButtonMenuItem radiobutton=(JRadioButtonMenuItem)e.getSource();
                 Edytor.scroll.textArea.setBackground(radiobutton.getForeground());
+                Edytor.bg.setIcon(new MyIcon(0,5,radiobutton.getForeground()));
             });
 
 //FontSize-------
@@ -106,6 +109,7 @@ public class MyBar extends JMenuBar {
             fontSize.radiobutton[i].addActionListener((e)->{
                 JRadioButtonMenuItem radiobutton=(JRadioButtonMenuItem)e.getSource();
                 Edytor.scroll.textArea.setFont(radiobutton.getFont());
+                Edytor.fs.setText(radiobutton.getText());
             });
 
 
@@ -130,6 +134,7 @@ public class MyBar extends JMenuBar {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
+        Edytor.state.setText("saved");
     }
 
     public void open(){
@@ -150,6 +155,7 @@ public class MyBar extends JMenuBar {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+        Edytor.state.setText("modified");
     }
 
     public void save(){
@@ -165,5 +171,6 @@ public class MyBar extends JMenuBar {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
+        Edytor.state.setText("saved");
     }
 }
