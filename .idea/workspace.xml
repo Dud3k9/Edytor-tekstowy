@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4361601-0717-4b49-9ae2-fc4815fbba48" name="Default Changelist" comment="dwdad">
+    <list default="true" id="e4361601-0717-4b49-9ae2-fc4815fbba48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zad18 Edytor/Edytor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zad18 Edytor/Edytor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zad18 Edytor/MyIcon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zad18 Edytor/MyIcon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Edytor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edytor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyIcon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zad18 Edytor/MyBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zad18 Edytor/MyBar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Zad18 Edytor/dnakwd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zad18 Edytor/dnakwd.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dnakwd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dnakwd.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Edytor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="399">
               <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ColorMenu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
@@ -75,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1455">
-              <caret line="157" column="38" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
+            <state relative-caret-position="321">
+              <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3074#3075#0" expanded="true" />
@@ -215,7 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558941748664</updated>
-      <workItem from="1558941754147" duration="34553000" />
+      <workItem from="1558941754147" duration="35644000" />
     </task>
     <task id="LOCAL-00001" summary="dwdad">
       <created>1558987810040</created>
@@ -224,14 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558987810040</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dzialajaca">
+      <created>1559035514360</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559035514360</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34553000" />
+    <option name="totallyTimeSpent" value="35644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -301,7 +305,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dwdad" />
-    <option name="LAST_COMMIT_MESSAGE" value="dwdad" />
+    <MESSAGE value="dzialajaca" />
+    <option name="LAST_COMMIT_MESSAGE" value="dzialajaca" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MyScrol1.java">
@@ -331,24 +336,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ColorMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Edytor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="399">
           <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#60#61#0" expanded="true" />
             <element signature="e#79#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3074#3075#0" expanded="true" />
+            <element signature="e#3164#3165#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -375,14 +382,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyBar.java">
+    <entry file="file://$PROJECT_DIR$/src/ColorMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="157" column="38" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3074#3075#0" expanded="true" />
-            <element signature="e#3164#3165#0" expanded="true" />
           </folding>
         </state>
       </provider>
